@@ -1,0 +1,21 @@
+{
+  "name": "keycloak-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "repository": "git@github.com:wagnerbola2/keycloak-ts.git",
+  "author": "Wagner Nunes <wagner.nunes@semantix.ai>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx src/main.ts",
+    "dev:watch": "tsx watch src/main.ts"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "fastify": "^4.14.1"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
+  }
+}
